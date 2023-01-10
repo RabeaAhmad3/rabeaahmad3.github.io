@@ -1,0 +1,8 @@
+export { default as wordleClone } from '../assets/images/worlde.png'
+export { default as suduko } from '../assets/images/suduko.png'
+export { default as salawat } from '../assets/images/salawat.png'
+export { default as vaas } from '../assets/images/vaas.png'
+export { default as pitchit } from '../assets/images/pitchit.png'
+export { default as subify } from '../assets/images/subify.png'
+export { default as verifiedvoices } from '../assets/images/verifiedvoices.png'
+export { default as fleetman } from '../assets/images/fleetman.png'

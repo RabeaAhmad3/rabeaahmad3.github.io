@@ -1,0 +1,282 @@
+// template mode styles
+
+// Theme template color 1
+#template-1 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: rgb(224, 134, 0);
+    }
+    .fill__color {
+      fill: rgb(224, 134, 0);
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: rgb(224, 134, 0);
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid rgb(224, 134, 0);
+    }
+    .switch__stroke-color {
+      stroke: rgb(224, 134, 0);
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 2
+  #template-2 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: rgb(16, 134, 67);
+    }
+  
+    .fill__color {
+      fill: rgb(16, 134, 67);
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: rgb(16, 134, 67);
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid rgb(16, 134, 67);
+    }
+    .switch__stroke-color {
+      stroke: rgb(16, 134, 67);
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 3
+  #template-3 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: rgb(179, 65, 211);
+    }
+  
+    .fill__color {
+      fill: rgb(179, 65, 211);
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: rgb(179, 65, 211);
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid rgb(179, 65, 211);
+    }
+    .switch__stroke-color {
+      stroke: rgb(179, 65, 211);
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 4
+  #template-4 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: rgb(210, 201, 199);
+    }
+    .fill__color {
+      fill: rgb(210, 201, 199);
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: rgb(210, 201, 199);
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 2px solid rgb(210, 201, 199);
+    }
+    .switch__stroke-color {
+      stroke: rgb(210, 201, 199);
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 5
+  #template-5 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: #a90303;
+    }
+  
+    .fill__color {
+      fill: #a90303;
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: #a90303;
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid #a90303;
+    }
+    .switch__stroke-color {
+      stroke: #a90303;
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 6
+  #template-6 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: var(--color-tem);
+    }
+  
+    .fill__color {
+      fill: var(--color-tem);
+    }
+    .switch__bg,
+    .skill-container::after,
+    .skill-container:hover,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: var(--color-tem);
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid var(--color-tem);
+    }
+    .switch__stroke-color {
+      stroke: var(--color-tem);
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  // Theme template color 7
+  #template-7 {
+    .switch__color,
+    .active-links,
+    h1,
+    h2,
+    h3,
+    h4,
+    .nav__links:hover,
+    .link-icon {
+      color: #a37346;
+    }
+  
+    .fill__color {
+      fill: #a37346;
+    }
+    .switch__bg,
+    .skill-container:hover,
+    .skill-container::after,
+    ::-webkit-scrollbar-thumb,
+    .blog-heading::after,
+    .blog-heading::before,
+    .form-input-group input + span::after,
+    .form-input-group textarea + span::after {
+      background-color: #a37346;
+    }
+    .switch__border-color,
+    .input-search:focus,
+    .active-mode {
+      border: 1px solid #a37346;
+    }
+    .switch__stroke-color {
+      stroke: #a37346;
+    }
+    .skill-container:hover .skills-icon,
+    .skill__name {
+      color: var(--hover-color);
+    }
+  }
+  
+  
+  // switch the text colors to whichever you like
