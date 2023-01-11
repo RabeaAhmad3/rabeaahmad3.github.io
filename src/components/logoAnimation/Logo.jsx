@@ -1,6 +1,6 @@
-import React from 'react'
-import './logo.scss'
-import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin'
+import React from 'react';
+import './logo.scss';
+import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin';
 import gsap from 'gsap';
 
 const Logo = () => {

@@ -4,7 +4,7 @@
   }
   
   .section__projects-single-projects {
-    border: 2px solid saddlebrown;
+    border: 3px solid saddlebrown;
     position: relative;
     overflow: hidden;
     height: 250px;
@@ -38,8 +38,8 @@
   }
   .section__projects-icon {
     position: absolute;
-    left: 15px;
-    bottom: 60px;
+    left: 5%;
+    bottom: 50%;
   }
   .section__projects-icon a {
     font-size: 30px;
@@ -54,6 +54,13 @@
     text-align: center;
     font-size: 1rem;
   }
+  .section__projects-contents{
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+    }
+  }
   
   .section__projects-stack {
     h2 {
@@ -61,8 +68,10 @@
       margin-bottom: 0.5rem;
     }
     color: #fff;
-    margin-top: 70px;
-    bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+    padding-bottom: 20px;
   }
   
   @media screen and (min-width: 2000px) {
@@ -72,8 +81,8 @@
     }
   
     .section__projects-icon a {
-      font-size: 18px;
-      margin-bottom: 5px;
+      font-size: 30px;
+      margin-bottom: 50%;
     }
     .section__projects-stack {
       h2 {
@@ -90,7 +99,7 @@
     }
   
     .section__projects-icon a {
-      font-size: 25px;
+      font-size: 30px;
       margin-bottom: 3px;
     }
     .section__projects-stack {
@@ -104,7 +113,7 @@
       grid-template-columns: repeat(3, 1fr);
     }
     .section__projects-icon a {
-      font-size: 20px;
+      font-size: 30px;
       margin-bottom: 3px;
     }
     .section__projects-stack {
@@ -119,7 +128,7 @@
     }
   
     .section__projects-icon a {
-      font-size: 15px;
+      font-size: 30px;
       margin-bottom: 3px;
     }
   }
@@ -131,7 +140,7 @@
     }
   
     .section__projects-stack {
-      margin-top: 50px;
+      margin-top: 30px;
     }
   }
   @media screen and (max-width: 690px) {
@@ -158,16 +167,16 @@
       }
     }
     .section__projects-icon {
-      left: 10px;
-      bottom: 30px;
+      left: 5%;
+      bottom: 50%;
     }
     .section__projects-icon a {
-      font-size: 15px;
+      font-size: 30px;
       margin-bottom: 3px;
     }
     .section__projects-stack {
       color: #fff;
-      margin-top: 40px;
+      margin-top: 20px;
       bottom: 10px;
     }
   }

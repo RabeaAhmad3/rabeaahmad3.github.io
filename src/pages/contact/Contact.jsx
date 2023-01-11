@@ -1,10 +1,12 @@
-import React, { useState, useRef } from 'react'
-import { BsExclamationLg, BsPatchCheckFill } from 'react-icons/bs'
-import { RiSendPlane2Fill } from 'react-icons/ri'
-import Blast from '../../components/BlastAnimation/Blast'
+import React, { useState, useRef } from 'react';
+import { BsExclamationLg, BsPatchCheckFill } from 'react-icons/bs';
+import { RiSendPlane2Fill } from 'react-icons/ri';
+import Blast from '../../components/BlastAnimation/Blast';
 import Map from '../../components/map/Map';
-import Fade from 'react-reveal/Fade'
-import Reveal from 'react-reveal/Reveal'
+import Fade from 'react-reveal/Fade';
+import Reveal from 'react-reveal/Reveal';
+import {socialIcons} from "../../data/data";
+
 
 
 // Email js
@@ -137,7 +139,7 @@ const Contact = React.memo(() => {
             <h2 aria-label="contact me" className="contact__heading">
               <Blast
                 letterClass={letterClass}
-                arrayStr={['L', 'e', 't', '\'', 's', '', '', 'C', 'o','n', 'n', 'e','c', 't', '!']}
+                arrayStr={['L', 'e', 't', '\'', 's','', 'C', 'o','n', 'n', 'e','c', 't', '!']}
                 indexLetter={12}
               />
             </h2>
@@ -233,7 +235,17 @@ const Contact = React.memo(() => {
         <div ref={MessageRef} className="message"></div>
         <Reveal bottom>
             <footer className="footer">
-              <p> This web app was created and designed by : Rabea Ahmad</p>
+            <div className="social-icon">
+                {socialIcons.map((icons, index) =>{
+                    const {icon, url} = icons;
+                    return(
+                       <a href={url} target="_blank" rel="noopener noreferrer" key={index} >
+                        {icon}
+                       </a>
+                    )
+                }
+            )}
+            </div>
             </footer>
           </Reveal>
       </section>

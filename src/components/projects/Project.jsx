@@ -9,7 +9,8 @@ const Project = (props) => {
       <section className="section__projects-single-projects">
         <img src={imgUrl} alt="" />
         <div className="section__projects-contents">
-          <p>{name}</p>
+          <h1 className ="switch__color">{name}</h1>
+          
           <p className="desc">{desc}</p>
           <div className="section__projects-icon">
             <a href={gitHubUrl.url} target="_blank" rel="noopener noreferrer" className="switch__color">
