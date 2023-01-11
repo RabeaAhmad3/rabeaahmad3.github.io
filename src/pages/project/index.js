@@ -11,6 +11,10 @@ import {
   subify,
   verifiedvoices,
   fleetman,
+  web3,
+  solana,
+  NFT,
+  meta,
 } from '../../assets/images'
 
 // projects' id, name, stacks, icon and url data
@@ -63,6 +67,7 @@ export const projects = [
     },
   },
   {
+    id: 4,
     name: 'PitchIt',
     desc: 'A remote team builder app for Software Engineers',
     stack: 'React, Node, Express, PostgreSQL, HTML, SCSS',
@@ -81,7 +86,7 @@ export const projects = [
     name: 'Truck Delivery Tracker',
     desc:
       'A microservice app that tracks a company’s fleet of trucks in real time',
-    stack: 'Kubernetes, AWS, Java, Angular, Jenkins, Docker, ELK Stack, Prometheus, Grafana',
+    stack: 'Kubernetes, AWS, Java, Angular, Jenkins, Docker, ELK Stack, Prometheus',
     gitHubUrl: {
       icon: "",
       url: '',
@@ -109,6 +114,69 @@ export const projects = [
   },
   {
     id: 7,
+    name: 'Meta Messenger Clone',
+    desc:
+      'A real time Meta messenger clone that allows users to sign in via Facebook',
+    stack: 'Nextjs, TypeScript, Tailwind CSS, Redis, NextAuth',
+    gitHubUrl: {
+      icon: "",
+      url: '',
+    },
+    website: {
+      icon: "",
+      url: '',
+    },
+    imgUrl: meta,
+  },
+  {
+    id: 8,
+    name: 'NFT Drop Dapp',
+    desc: 'An NFT drop dapp that allows users to mint custom NFTs with ethereum',
+    stack: 'Nextjs, TypeScript, Tailwind CSS, Thirdweb, Sanity',
+    gitHubUrl: {
+      icon: "",
+      url: '',
+    },
+    website: {
+      icon: "",
+      url: '',
+    },
+    imgUrl: NFT,
+  },
+  {
+    id: 9,
+    name: 'Web3 Messenger',
+    desc:
+      'A web3 messenger app that allows users to send and receive messages in real time',
+    stack: 'Nextjs, Tailwind CSS, Moralis, Metamask, Vercel',
+    gitHubUrl: {
+      icon: "",
+      url: '',
+    },
+    website: {
+      icon: "",
+      url: '',
+    },
+    imgUrl: web3,
+  },
+  {
+    id: 10,
+    name: 'NFT Gated Website',
+    desc:
+      'A website that only allows users to access the site if they own a specific Solana NFT',
+    stack: 'Nextjs, Tailwind CSS, Thirdweb, Solana',
+    gitHubUrl: {
+      icon: "",
+      url: '',
+    },
+    website: {
+      icon: "",
+      url: '',
+    },
+    imgUrl: solana,
+  },
+  {
+    id: 11,
     name: 'Suduko Solver',
     desc: 'Solves suduko puzzles using a backtracking recursion algorithm with a GUI',
     stack: 'Python, Pygame',
@@ -123,7 +191,7 @@ export const projects = [
     imgUrl: suduko, 
   },
   {
-    id: 8,
+    id: 12,
     name: 'Wordle Clone',
     desc:
       'A game that gives you 5 attempts to guess the correct word of the day',
