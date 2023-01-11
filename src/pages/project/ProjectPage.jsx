@@ -26,7 +26,8 @@ const ProjectPage = () => {
       <div className="section__projects-description">
         <Fade bottom>
           <p>
-            Here is a portfolio of some of the projects I have built along my software engineering journey implementing various programming languages, trailblazing technologies, and complex algorithms/data structures  :
+            Here are just a few of the projects I have built outside of work, mostly for fun
+            and to work with awesome newer technologies: 
           </p>
         </Fade>
       </div>

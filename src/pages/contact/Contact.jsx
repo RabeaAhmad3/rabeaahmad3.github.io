@@ -139,15 +139,13 @@ const Contact = React.memo(() => {
             <h2 aria-label="contact me" className="contact__heading">
               <Blast
                 letterClass={letterClass}
-                arrayStr={['L', 'e', 't', '\'', 's','', 'C', 'o','n', 'n', 'e','c', 't', '!']}
+                arrayStr={['C', 'o', 'n', 't', 'a','c', 't', '','M', 'e']}
                 indexLetter={12}
               />
             </h2>
             <Fade bottom>
               <p>
-                If you are a fellow engineer and love to build, lets connect.
-                However, if you have any other questions or requests, do not hesitate
-                to send me a message!
+                I love to build cool shit. If you also love to build cool shit, lets connect.
               </p>
             </Fade>
           </div>

@@ -48,12 +48,12 @@ const About = () => {
             </h2>
             <Fade bottom>
               <p>
-                I love to build cool shit. 
+                I love building. 
               </p>
             </Fade>
             <Fade bottom>
               <p>
-                I am super passionate about open source work, and the power we have as engineers to collectively work together to change the world.
+                Particularly, I am super passionate about open source work, and the power we have as engineers to collectively work together to change the world.
                 My interests include full-stack development, system design, responsive UI/UX development, machine learning and AI, and
                 web3.
               </p>
