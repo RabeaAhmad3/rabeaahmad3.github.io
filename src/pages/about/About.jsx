@@ -48,15 +48,14 @@ const About = () => {
             </h2>
             <Fade bottom>
               <p>
-                I am an ambitious developer currently based in Washington, DC. 
-                I am always looking for opportunities to work with the latest technologies on
-                challenging and diverse projects.
+                I love to build cool shit. 
               </p>
             </Fade>
             <Fade bottom>
               <p>
+                I am super passionate about open source work, and the power we have as engineers to collectively work together to change the world.
                 My interests include full-stack development, system design, responsive UI/UX development, machine learning and AI, and
-                game development.
+                web3.
               </p>
             </Fade>
             <Fade bottom>

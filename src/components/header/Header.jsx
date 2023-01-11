@@ -49,7 +49,7 @@ const Header = () => {
 
                 </h1>
                 <p className= 'text-desc'>
-                    FULL STACK DEVELOPER
+                    FULL STACK SOFTWARE ENGINEER
                 </p>
                 <Link to={"/contact"} className ="contact-button">
                     <div>

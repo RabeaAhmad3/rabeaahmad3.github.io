@@ -145,8 +145,7 @@ const Contact = React.memo(() => {
             </h2>
             <Fade bottom>
               <p>
-                If you are a fellow developer or an employer looking to collaborate on 
-                projects using cutting-edge technologies, please reach out to me.
+                If you are a fellow engineer and love to build, lets connect.
                 However, if you have any other questions or requests, do not hesitate
                 to send me a message!
               </p>

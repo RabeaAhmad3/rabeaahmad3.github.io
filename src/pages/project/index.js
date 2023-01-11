@@ -64,7 +64,7 @@ export const projects = [
   },
   {
     name: 'PitchIt',
-    desc: 'A project based remote team builder',
+    desc: 'A remote team builder app for Software Engineers',
     stack: 'React, Node, Express, PostgreSQL, HTML, SCSS',
     gitHubUrl: {
       icon: <GrGithub />,
@@ -80,7 +80,7 @@ export const projects = [
     id: 5,
     name: 'Truck Delivery Tracker',
     desc:
-      'An app that tracks a company’s fleet of trucks in real time',
+      'A microservice app that tracks a company’s fleet of trucks in real time',
     stack: 'Kubernetes, AWS, Java, Angular, Jenkins, Docker, ELK Stack, Prometheus, Grafana',
     gitHubUrl: {
       icon: "",
@@ -110,7 +110,7 @@ export const projects = [
   {
     id: 7,
     name: 'Suduko Solver',
-    desc: 'Solves suduko puzzles using a backtracking recursion algorithm',
+    desc: 'Solves suduko puzzles using a backtracking recursion algorithm with a GUI',
     stack: 'Python, Pygame',
     gitHubUrl: {
       icon: <GrGithub />,
