@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7cd5e010.css",
-    "main.js": "/static/js/main.f98190a6.js",
+    "main.js": "/static/js/main.edadfd63.js",
     "static/media/vaas.png": "/static/media/vaas.0161fbf1a7fb8edf95c7.png",
     "static/media/subify.png": "/static/media/subify.eeb0b7d154a1407d03c9.png",
     "static/media/logo.jpg": "/static/media/logo.84da0e4644a62c5a77b0.jpg",
@@ -11,17 +11,17 @@
     "static/media/salawat.png": "/static/media/salawat.b6e413cb08eb2c007f84.png",
     "static/media/meta.png": "/static/media/meta.84b3a6f21da727d6c394.png",
     "static/media/suduko.png": "/static/media/suduko.9176c713950f9e013b98.png",
-    "static/media/RabeaAhmad.pdf": "/static/media/RabeaAhmad.023830e01d4323c7b5ea.pdf",
+    "static/media/RabeaAhmad.pdf": "/static/media/RabeaAhmad.afc7912d1897eb5b1af4.pdf",
     "static/media/pitchit.png": "/static/media/pitchit.f17c87694927e89b2bb4.png",
     "static/media/web3.png": "/static/media/web3.939f3632856120e838df.png",
     "static/media/undraw_feeling_blue_-4-b7q.svg": "/static/media/undraw_feeling_blue_-4-b7q.25a59af09a15f6b97cdde63a1a137f26.svg",
     "static/media/verifiedvoices.png": "/static/media/verifiedvoices.c35d8f943771cca39a33.png",
     "index.html": "/index.html",
     "main.7cd5e010.css.map": "/static/css/main.7cd5e010.css.map",
-    "main.f98190a6.js.map": "/static/js/main.f98190a6.js.map"
+    "main.edadfd63.js.map": "/static/js/main.edadfd63.js.map"
   },
   "entrypoints": [
     "static/css/main.7cd5e010.css",
-    "static/js/main.f98190a6.js"
+    "static/js/main.edadfd63.js"
   ]
 }
